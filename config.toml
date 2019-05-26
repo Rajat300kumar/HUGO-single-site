@@ -1,0 +1,22 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ga-hugo-theme" 
+
+ twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "eueung"
+
+[params]
+
+twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "eueung"
+
+  [permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/#"
+  weight = 200
